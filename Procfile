@@ -1,1 +1,1 @@
-web: gunicorn app:app --bind 0.0.0.0:$PORT
+gunicorn project.wsgi:application --preload --workers 1
