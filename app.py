@@ -1,10 +1,7 @@
-import numpy as np
 from flask import Flask, request, render_template
 from firebase import firebase  
 from flask import Response
 import pickle
-
-import io
 
 
 app = Flask(__name__)
